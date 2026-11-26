@@ -190,6 +190,8 @@
   }
 
   function renderMascot() {
+    if (D.config.showQuizMascot === false) { mascot.hidden = true; mascot.innerHTML = ""; return; }
+    mascot.hidden = false;
     mascot.innerHTML = pot({
       slots: [{ pos: "c", label: "", src: D.assets.quizMascot }],
       steamCount: 2, bubbles: 4,

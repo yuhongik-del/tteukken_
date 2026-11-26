@@ -7,6 +7,8 @@ window.TTK = {
   config: {
     // true: 스페인어 아래에 한국어를 함께 표시 / false: 스페인어만 표시
     showKorean: true,
+    // true: 퀴즈 카드 아래 뚝배기 일러스트 표시 / false: 숨김
+    showQuizMascot: false,
   },
 
   /* -----------------------------------------------------------------------
